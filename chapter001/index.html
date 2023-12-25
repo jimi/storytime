@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Playpen+Sans:wght@400&display=swap" rel="stylesheet">
+	
+  <script>		
+    tailwind.config = {
+      theme: {
+        extend: {
+		      fontFamily: {
+		        macondo: ['"Macondo Swash Caps"'],
+		        playpen: ['"Playpen Sans"']
+		      }
+        }
+      }
+    }
+  </script>
+		
+</head>
+
+<body class="w-full max-w-xl mx-auto px-8 mt-12">
+	<div class="flex flex-col items-center">
+		<div class="mt-12">
+			<img src="./images/cover.png" class="rounded-2xl" style="width:auto; height:300px;">
+		</div>
+		<div class="mt-8">
+		  <h1 class="font-macondo text-4xl font-bold text-purple-500">
+		    Chapter 1
+		  </h1>
+		</div>
+		<div class="mt-2">
+			<p class="font-playpen text-xl text-purple-500">
+				An ongoing tale that unfolds with each completed chapter, 
+				releasing endless adventures on or around every Sunday...
+			</p>
+		</div>
+		
+	</div>
+</body>
+</html>
