@@ -5,14 +5,14 @@ $( document ).ready(function() {
 });
 
 $(".homeBtn").on("click", function(event) {  
-	window.location.replace("../index.html");
+	window.location.replace("./index.html");
 });
 
 $(".nextBtn").on("click", function(event) {
 	const index = $(this).attr("data-index");
 	const next = parseInt(index) + 1;
 	
-	const narration = new Audio("../audio/chapter" + chapter + "/page" + next + ".m4a");
+	const narration = new Audio("./audio/chapter" + chapter + "/page" + next + ".m4a");
 	narration.preload = 'auto';	
 	
 	$("#page" + index).fadeOut("slow", () => {
@@ -34,7 +34,7 @@ $(".backBtn").on("click", function(event) {
 
 $(".replayBtn").on("click", function(event) {
 	const index = $(this).attr("data-index");
-	const narration = new Audio("../audio/chapter" + chapter + "/page" + index + ".m4a");
+	const narration = new Audio("./audio/chapter" + chapter + "/page" + index + ".m4a");
 	narration.preload = 'auto';
 	narration.play();
 });
