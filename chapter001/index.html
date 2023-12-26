@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap" rel="stylesheet">	
 	<link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Playpen+Sans:wght@400&display=swap" rel="stylesheet">
 	
   <script>		
@@ -25,23 +25,76 @@
 		
 </head>
 
-<body class="w-full max-w-xl mx-auto px-8 mt-12">
-	<div class="flex flex-col items-center">
-		<div class="mt-12">
-			<img src="./images/cover.png" class="rounded-2xl" style="width:auto; height:300px;">
-		</div>
-		<div class="mt-8">
-		  <h1 class="font-macondo text-4xl font-bold text-purple-500">
-		    Chapter 1
-		  </h1>
-		</div>
-		<div class="mt-2">
-			<p class="font-playpen text-xl text-purple-500">
-				An ongoing tale that unfolds with each completed chapter, 
-				releasing endless adventures on or around every Sunday...
-			</p>
+<body data-chapter="001" class="w-full max-w-xl mx-auto px-4 mt-12 mb-8">
+	
+	<!--################################################################################################-->
+	<!-- TITLE -->
+	<!--################################################################################################-->
+	
+	<section id="page0" class="flex flex-col items-center">		
+	  <h1 class="font-macondo text-4xl font-bold text-purple-600">Chapter 1</h1>
+		
+		<div class="mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+			<p class="p-4 font-playpen text-purple-500">This is random text, a placeholder so to speak!!!</p>
 		</div>
 		
-	</div>
+		<div class="flex justify-center pt-8 pb-4 gap-x-4">
+		  <div class="basis-1/2 text-right">										
+				<button class="homeBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+					<span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+						⌂&nbsp;Home
+					</span>
+				</button>
+			</div>
+		  <div class="basis-1/2 text-left">
+				<button data-index="0" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+					<span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+						Begin&nbsp;→
+					</span>
+				</button>
+		  </div>
+		</div>
+	</section>
+	
+	<!--################################################################################################-->
+	<!-- PAGE 1 -->
+	<!--################################################################################################-->
+	
+	<section id="page1" class="hidden flex flex-col items-center">		
+	  <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 1</h1>
+	  <h2 class="text-center font-macondo text-xl font-bold text-purple-600">page 1/15</h2>
+		
+		<div class="text-center mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+			<p class="p-4 font-playpen text-purple-500">This is random text, a placeholder so to speak!!!</p>
+		</div>
+		
+		<div class="flex justify-center pt-8 pb-4 gap-x-4">
+		  <div class="basis-1/2 text-right">										
+				<button id="page01BackBtn" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 w-28">
+					<span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center w-28">
+						←&nbsp;Back
+					</span>
+				</button>
+			</div>
+			
+		  <div class="basis-1/2 text-left">
+				<button id="page01NextBtn" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 w-28">
+					<span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center w-28">
+						Next&nbsp;→
+					</span>
+				</button>
+		  </div>
+		</div>
+	</section>
+	
+	
+	<!--################################################################################################-->
+	<!-- JAVASCRIPT LIBRARIES -->
+	<!--################################################################################################-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  <script src="../javascripts/general.js"></script>
+	
 </body>
 </html>
