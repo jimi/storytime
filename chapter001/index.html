@@ -40,16 +40,16 @@
 		
 		<div class="flex justify-center pt-8 pb-4 gap-x-4">
 		  <div class="basis-1/2 text-right">										
-				<button class="homeBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
-					<span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
-						⌂&nbsp;Home
+				<button class="homeBtn w-32 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+					<span class="w-32 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+						<i class="fa-solid fa-house fa-sm"></i> Home
 					</span>
 				</button>
 			</div>
 		  <div class="basis-1/2 text-left">
-				<button data-index="0" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
-					<span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
-						Begin&nbsp;→
+				<button data-index="0" class="nextBtn w-32 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+					<span class="w-32 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+						Begin <i class="fa-solid fa-arrow-right"></i>
 					</span>
 				</button>
 		  </div>
@@ -69,18 +69,26 @@
 		</div>
 		
 		<div class="flex justify-center pt-8 pb-4 gap-x-4">
-		  <div class="basis-1/2 text-right">										
-				<button id="page01BackBtn" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 w-28">
-					<span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center w-28">
-						←&nbsp;Back
+		  <div class="basis-1/3 text-right">										
+				<button data-index="1" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+					<span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+						<i class="fa-solid fa-arrow-left"></i> Back
 					</span>
 				</button>
 			</div>
 			
-		  <div class="basis-1/2 text-left">
-				<button id="page01NextBtn" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-xl font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 w-28">
-					<span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center w-28">
-						Next&nbsp;→
+		  <div class="basis-1/3 text-center">										
+				<button data-index="1" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+					<span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+						<i class="fa-solid fa-play"></i>
+					</span>
+				</button>
+			</div>
+			
+		  <div class="basis-1/3 text-left">
+				<button data-index="1" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+					<span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+						Next <i class="fa-solid fa-arrow-right"></i>
 					</span>
 				</button>
 		  </div>
@@ -92,6 +100,7 @@
 	<!-- JAVASCRIPT LIBRARIES -->
 	<!--################################################################################################-->
 	
+	<script src="https://kit.fontawesome.com/703d3fa260.js" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
   <script src="../javascripts/general.js"></script>
