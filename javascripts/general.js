@@ -5,7 +5,7 @@ $( document ).ready(function() {
 });
 
 $(".homeBtn").on("click", function(event) {  
-	window.location.replace("./index.html");
+	window.location.replace("index.html");
 });
 
 $(".nextBtn").on("click", function(event) {
