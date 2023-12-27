@@ -4,6 +4,15 @@ $( document ).ready(function() {
 	chapter = $("body").attr("data-chapter");
 });
 
+$(".chapterBtn").on("click", function(event) { 
+	const index = $(this).attr("data-chapter"); 
+	$(this).prop('disabled', true)	
+	$("#chapterBtnText" + index).html('Loading...');
+	$("#chapterBtnText" + index).addClass("animate-pulse");
+	
+	window.location.replace("chapter" + index + ".html");
+});
+
 $(".homeBtn").on("click", function(event) {  
 	window.location.replace("index.html");
 });
