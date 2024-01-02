@@ -1,0 +1,1087 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/jquery-ui.css">
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&family=Playpen+Sans:wght@400&display=swap" rel="stylesheet">
+
+    <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                fontFamily: {
+                    macondo: ['"Macondo Swash Caps"'],
+                    playpen: ['"Playpen Sans"']
+                }
+            }
+        }
+    }
+    </script>
+
+</head>
+
+<body data-chapter="002" class="w-full max-w-xl mx-auto px-4 mt-12 mb-8">
+
+    <!--################################################################################################-->
+    <!-- TITLE -->
+    <!--################################################################################################-->
+
+    <section id="page0" class="flex flex-col items-center">
+        <p class="font-macondo text-2xl font-bold text-purple-600">Chapter 2</p>
+
+        <p class="mt-4 font-macondo text-4xl font-bold text-purple-600">Lego Kingdom Quest</p>
+				<p class="mt-2 font-macondo text-2xl font-bold text-purple-600">The Malcon Fillennium</p>
+				
+        <p class="mt-8 font-playpen text-lg text-purple-600 animate-pulse">Turn up the volume on your device!</p>
+
+        <button data-index="0" class="nextBtn mt-12 w-32 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+            <span class="w-32 font-playpen relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+							Begin <i class="fa-solid fa-arrow-right"></i>
+            </span>
+        </button>
+
+        <div class="mt-12 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+            	<i class="fa-solid fa-house"></i> Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 1 -->
+    <!--################################################################################################-->
+
+    <section id="page1" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page1.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">In the heart of the underground caves, Bezos, Jim, and Blaze stumbled upon a mysterious portal pulsating with vibrant energy. The trio exchanged curious glances, and with a shared sense of adventure, they stepped into the unknown.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 1/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="1" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="1" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="1" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 2 -->
+    <!--################################################################################################-->
+
+    <section id="page2" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page2.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">Suddenly, a kaleidoscope of colors surrounded them as they emerged into a world where every tree, every creature, and every structure was made of Lego bricks. Bezos&#39;s eyes widened with amazement.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 2/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="2" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="2" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="2" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 3 -->
+    <!--################################################################################################-->
+
+    <section id="page3" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page3.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">Before them stood Lego creatures—living, breathing beings assembled from countless Lego pieces. With friendly gestures, they welcomed Bezos, Jim, and Blaze to the Lego Kingdom.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 3/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="3" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="3" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="3" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 4 -->
+    <!--################################################################################################-->
+
+    <section id="page4" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page4.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">The Lego Kingdom was a wonderland of creativity. Towering Lego castles, whimsical Lego forests, and even Lego rivers flowed with the essence of imagination.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 4/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="4" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="4" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="4" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 5 -->
+    <!--################################################################################################-->
+
+    <section id="page5" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page5.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">Bezos, filled with excitement, joined the Lego creatures in building fantastical structures. Together, they crafted bridges that spanned Lego rivers and towers that reached for the Lego sky.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 5/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="5" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="5" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="5" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 6 -->
+    <!--################################################################################################-->
+
+    <section id="page6" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page6.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">Blaze, not to be outdone, constructed a Lego nest high in the Lego trees, blending seamlessly with the whimsical surroundings. The Lego creatures cheered in awe.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 6/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="6" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="6" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="6" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 7 -->
+    <!--################################################################################################-->
+
+    <section id="page7" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page7.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">The Lego Kingdom thrived on teamwork. Bezos, Jim, Blaze, and their Lego companions discovered that when they combined their creativity, they could build anything their hearts desired.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 7/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="7" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="7" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="7" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 8 -->
+    <!--################################################################################################-->
+
+    <section id="page8" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page8.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">With Bezos&#39;s love for Lego, he became the natural leader of their building adventures. His imaginative ideas flowed, and the Lego Kingdom transformed with every brick placed.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 8/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="8" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="8" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="8" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 9 -->
+    <!--################################################################################################-->
+
+    <section id="page9" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page9.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">In recognition of his leadership and creativity, the Lego creatures crowned Bezos as the King of the Lego Kingdom for a day. Bezos beamed with pride, a Lego crown perched atop his golden locks.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 9/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="9" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="9" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="9" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 10 -->
+    <!--################################################################################################-->
+
+    <section id="page10" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page10.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">As King Bezos, he led his subjects on a grand procession through the Lego Kingdom. The Lego creatures paraded alongside, showcasing their splendid creations and cheering for their newfound ruler.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 10/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="10" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="10" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="10" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 11 -->
+    <!--################################################################################################-->
+
+    <section id="page11" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page11.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">The Lego Kingdom, with Bezos at its helm, became a realm of joy and laughter. Together, they built a Lego playground that echoed with the delighted giggles of Lego children.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 11/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="11" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="11" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="11" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 12 -->
+    <!--################################################################################################-->
+
+    <section id="page12" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page12.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">As the day unfolded, Bezos, Jim, Blaze, and their Lego subjects crafted intricate Lego spaceships that soared through the Lego sky, venturing into the far reaches of their blocky universe.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 12/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="12" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="12" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="12" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 13 -->
+    <!--################################################################################################-->
+
+    <section id="page13" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page13.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">With a sense of accomplishment, Bezos and his companions realized that the true magic of the Lego Kingdom wasn&#39;t just in its structures but in the bonds forged through shared creativity.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 13/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="13" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="13" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="13" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 14 -->
+    <!--################################################################################################-->
+
+    <section id="page14" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page14.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">As the day in the Lego Kingdom drew to a close, the trio searched for the portal they entered from. To their dismay, it seemed to have vanished, leaving them perplexed.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 14/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="14" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="14" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="14" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 15 -->
+    <!--################################################################################################-->
+
+    <section id="page15" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page15.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">Undeterred, Bezos, Jim, and Blaze brainstormed a solution. Inspired by their Lego surroundings, they decided to build a Lego ship to navigate the Lego skies and find their way back home.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 15/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="15" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="15" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="15" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 16 -->
+    <!--################################################################################################-->
+
+    <section id="page16" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page16.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">The trio embarked on their most ambitious Lego creation yet—the &#39;Malcon Fillennium,&#39; a ship that gleamed with magical Lego energy. With every brick carefully placed, the ship took shape.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 16/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="16" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="16" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="16" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 17 -->
+    <!--################################################################################################-->
+
+    <section id="page17" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page17.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">As the Malcon Fillennium stood proudly before them, Bezos, Jim, and Blaze boarded the Lego vessel. With a surge of Lego power, the ship lifted off, carrying them through the Lego skies.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 17/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="17" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="17" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="17" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 18 -->
+    <!--################################################################################################-->
+
+    <section id="page18" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page18.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">The Malcon Fillennium, guided by their combined creativity, soared over Lego mountains and through Lego clouds. The trio marveled at the world they had crafted and the possibilities that lay ahead.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 18/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="18" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="18" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="18" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 19 -->
+    <!--################################################################################################-->
+
+    <section id="page19" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page19.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">As they neared West Vancouver, the Malcon Fillennium descended gracefully. With a final burst of magical Lego energy, it gently placed Bezos in his bed, tucking him in for a goodnight sleep.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 19/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="19" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="19" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="19" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- PAGE 20 -->
+    <!--################################################################################################-->
+
+    <section id="page20" class="hidden flex flex-col items-center">
+        <h1 class="text-center font-macondo text-4xl font-bold text-purple-600">Chapter 2</h1>
+        <h2 class="text-center font-macondo text-xl font-bold text-purple-600">Lego Kingdom Quest</h2>
+
+        <div class="text-left mt-5 mx-2 py-4 bg-white border border-gray-300 rounded-xl">
+            <div class="flex justify-center">
+                <img src="./images/chapter002/page20.png" class="rounded-2xl" style="width:auto; height:200px;">
+            </div>
+            <p class="p-4 font-playpen text-purple-500">The trio, back in the real world, exchanged smiles, grateful for the adventures shared in the Lego Kingdom. As Bezos drifted into dreams, the Malcon Fillennium vanished, leaving behind the echo of Lego magic and the promise of more extraordinary journeys to come.</p>
+            <p class="font-playpen text-purple-500 text-sm text-center">page 20/20
+        </div>
+        </div>
+
+        <div class="flex justify-center pt-8 pb-4 gap-x-4">
+            <div class="basis-1/3 text-right">
+                <button data-index="20" class="backBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        &nbsp;Back
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-center">
+                <button data-index="20" class="replayBtn w-16 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-purple-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-16 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="basis-1/3 text-left">
+                <button data-index="20" class="nextBtn w-28 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-lg font-medium text-purple-500 rounded-lg group bg-gradient-to-br from-pink-500 to-purple-500 group-hover:from-pink-500 group-hover:to-purple-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-purple-200">
+                    <span class="w-28 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0 text-center">
+                        Next&nbsp;
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center text-sm">
+            <a href="index.html" class="font-medium text-purple-600 dark:text-purple-500 hover:underline">
+                <i class="fa-solid fa-house"></i>
+                 Home
+            </a>
+        </div>
+    </section>
+
+    <!--################################################################################################-->
+    <!-- JAVASCRIPT LIBRARIES -->
+    <!--################################################################################################-->
+
+    <script src="./javascripts/703d3fa260.js"></script>
+    <script src="./javascripts/jquery.min.js"></script>
+    <script src="./javascripts/jquery-ui.min.js"></script>
+    <script src="./javascripts/general.js"></script>
+
+</body>
+</html>
