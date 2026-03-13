@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
+		<meta charset="UTF-8">
     
     <link rel="icon" href="/icon.png" type="image/png">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
@@ -36,12 +37,16 @@
 		
 		<!-- TODO: header -->		
     <main class="container mx-auto mt-12 mb-12 px-5 flex justify-center items-center"><!-- BEGIN app/views/pages/index.html.erb --><div class="flex flex-col min-h-screen">
-  <div class="text-right mr-3 mb-1">    
-      <a class="inline-flex items-center text-tomato hover:text-chinese-red" href="/session/new">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-5 h-5 mr-1">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"></path>
-</svg> Sign in
-</a>  </div>
+  
+		<div class="flex justify-between items-center mr-3 mb-1">
+		  <a class="inline-flex items-center text-tomato hover:text-sky-aqua" href="/chinese.html">
+		    繁體中文
+	</a>
+		  <a class="inline-flex items-center text-tomato hover:text-sky-aqua" href="/">
+		    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-5 h-5 mr-1">
+	  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"></path>
+	</svg> Sign in
+	</a>	</div>
 	
 	<!-- HERO -->
 	<div class="rounded-t-xl bg-parchment flex items-center justify-center px-4 py-20 border border-b-0 border-gray-300">
