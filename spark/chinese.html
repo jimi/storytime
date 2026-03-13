@@ -1,0 +1,320 @@
+<html>
+  <head>
+    <title>Spark.mo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+		<meta charset="UTF-8">
+    
+    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/icon.png">
+			
+  	<script src="https://cdn.tailwindcss.com"></script>
+		
+	  <script>
+	    tailwind.config = {
+	      theme: {
+	        extend: {
+	          colors: {
+	            'tomato': '#F06449',
+	            'sky-aqua': '#5BC3EB',
+	            'charcoal-brown': '#36382E',
+	            'alabaster-grey': '#DADAD9',
+	            'parchment': '#EDE6E3',
+	            'off-white': '#F9F9F9',
+	            'macau-green': '#077662',
+	            'macau-yellow': '#FFDE23',
+	          }
+	        }
+	      }
+	    }
+	  </script>
+  </head>
+
+  <body>
+		
+    <main class="container mx-auto mt-12 mb-12 px-5 flex justify-center items-center"><!-- BEGIN app/views/pages/index.html.erb --><div class="flex flex-col min-h-screen">
+  <div class="text-right mr-3 mb-1">    
+      <a class="inline-flex items-center text-tomato hover:text-chinese-red" href="/session/new">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-5 h-5 mr-1">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"></path>
+</svg> 登入
+</a>  </div>
+	
+	<!-- HERO -->
+	<div class="rounded-t-xl bg-parchment flex items-center justify-center px-4 py-20 border border-b-0 border-gray-300">
+	  <div class="text-charcoal-brown max-w-4xl w-full text-center">
+
+	    <!-- Icon -->
+	    <div>
+	      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-24 h-24 text-tomato inline-block">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z"></path>
+</svg>
+	    </div>
+
+	    <!-- Brand -->
+	    <p class="mt-6 text-sm uppercase tracking-[0.25em] text-tomato font-semibold">
+	      Spark.mo
+	    </p>
+
+	    <!-- Main headline -->
+	    <h1 class="mt-4 text-4xl sm:text-6xl font-extrabold leading-tight">
+	      為澳門打造的現代學習平台，<br class="hidden sm:block">
+	      專注於實用技能。
+	    </h1>
+
+	    <!-- Subheadline -->
+	    <p class="mt-6 text-lg sm:text-xl max-w-2xl mx-auto text-gray-700">
+	      從我們的第一個自定進度課程開始，體驗一個專為未來教育設計的專注、實用學習平台。
+	    </p>
+
+	    <!-- Value chips -->
+	    <div class="mt-8 flex flex-wrap justify-center gap-3">
+	      <span class="px-4 py-2 bg-white rounded-full shadow-sm text-sm">自定進度</span>
+	      <span class="px-4 py-2 bg-white rounded-full shadow-sm text-sm">AI輔助</span>
+	      <span class="px-4 py-2 bg-white rounded-full shadow-sm text-sm">澳門製造</span>
+	      <span class="px-4 py-2 bg-white rounded-full shadow-sm text-sm">包含證書</span>
+	    </div>
+
+	    <!-- CTA -->
+	      <div class="mt-10">
+	        <a class="inline-flex items-center rounded-lg px-7 py-3 bg-tomato hover:bg-chinese-red text-white shadow-lg text-lg transition duration-300 ease-in-out transform hover:scale-105" href="/registration/new">
+	          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plane-takeoff-icon lucide-plane-takeoff w-5 h-5 mr-2 text-white"><path d="M2 22h20"></path><path d="M6.36 17.4 4 17l-2-4 1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12 5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.41 2.41 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z"></path></svg>
+	          探索我們的首門課程
+</a>	      </div>
+
+	      <!-- Trust signal -->
+	      <p class="mt-4 text-sm text-gray-500">
+	        早期發布 • 免費參與 • 您的意見將幫助塑造Spark
+	      </p>
+
+	  </div>
+	</div>
+	
+	<!-- WHY SPARK? -->
+	<div class="bg-off-white flex items-center justify-center px-4 py-16 border border-t-0 border-gray-300">
+	  <div class="text-charcoal-brown max-w-5xl w-full">
+
+	    <!-- Title -->
+	    <h2 class="text-4xl font-extrabold text-center sm:text-5xl">
+	      為什麼選擇Spark.mo？
+	    </h2>
+
+	    <!-- Features grid -->
+	    <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+	      <!-- Feature -->
+	      <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
+	        <div class="flex justify-center mb-4">
+	          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-sky-50">
+	            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket-icon lucide-rocket w-7 h-7 text-sky-aqua"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"></path><path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"></path></svg>
+	          </div>
+	        </div>
+	        <h3 class="text-lg font-semibold mb-2">未來課程</h3>
+	        <p class="text-sm text-gray-600">
+	          獲取IT、AI等領域的熱門技能，這些在澳門傳統教育中往往缺失。
+	        </p>
+	      </div>
+
+	      <!-- Feature -->
+	      <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
+	        <div class="flex justify-center mb-4">
+	          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-sky-50">
+	            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-person-standing-icon lucide-person-standing w-7 h-7 text-sky-aqua"><circle cx="12" cy="5" r="1"></circle><path d="m9 20 3-6 3 6"></path><path d="m6 8 6 2 6-2"></path><path d="M12 10v4"></path></svg>
+	          </div>
+	        </div>
+	        <h3 class="text-lg font-semibold mb-2">真正的靈活性</h3>
+	        <p class="text-sm text-gray-600">
+	          隨時學習，全天候訪問。您的進度會自動保存，可在任何設備上繼續。
+	        </p>
+	      </div>
+
+	      <!-- Feature -->
+	      <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
+	        <div class="flex justify-center mb-4">
+	          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-sky-50">
+	            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-7 h-7 text-sky-aqua">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"></path>
+</svg>
+	          </div>
+	        </div>
+	        <h3 class="text-lg font-semibold mb-2">直觀學習</h3>
+	        <p class="text-sm text-gray-600">
+	          簡潔界面，專為在手機、平板和桌面端提供專注清晰的體驗而設計。
+	        </p>
+	      </div>
+
+	      <!-- Feature -->
+	      <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
+	        <div class="flex justify-center mb-4">
+	          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-sky-50">
+	            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-no-axes-combined-icon lucide-chart-no-axes-combined w-7 h-7 text-sky-aqua"><path d="M12 16v5"></path><path d="M16 14v7"></path><path d="M20 10v11"></path><path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15"></path><path d="M4 18v3"></path><path d="M8 14v7"></path></svg>
+	          </div>
+	        </div>
+	        <h3 class="text-lg font-semibold mb-2">智能進度追蹤</h3>
+	        <p class="text-sm text-gray-600">
+	          視覺化反饋幫助您了解自己的優勢，追蹤學習歷程。
+	        </p>
+	      </div>
+
+	      <!-- Feature -->
+	      <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
+	        <div class="flex justify-center mb-4">
+	          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-sky-50">
+	            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hand-coins-icon lucide-hand-coins w-7 h-7 text-sky-aqua"><path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17"></path><path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9"></path><path d="m2 16 6 6"></path><circle cx="16" cy="9" r="2.9"></circle><circle cx="6" cy="5" r="3"></circle></svg>
+	          </div>
+	        </div>
+	        <h3 class="text-lg font-semibold mb-2">實惠卓越</h3>
+	        <p class="text-sm text-gray-600">
+	          高品質課程內容，設計得引人入勝且人人可及。
+	        </p>
+	      </div>
+
+	      <!-- Feature -->
+	      <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
+	        <div class="flex justify-center mb-4">
+	          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-sky-50">
+	            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bot-message-square-icon lucide-bot-message-square w-7 h-7 text-sky-aqua"><path d="M12 6V2H8"></path><path d="M15 11v2"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="M20 16a2 2 0 0 1-2 2H8.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 4 20.286V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2z"></path><path d="M9 11v2"></path></svg>
+	          </div>
+	        </div>
+	        <h3 class="text-lg font-semibold mb-2">AI學習夥伴</h3>
+	        <p class="text-sm text-gray-600">
+	          隨時與內置AI學習助手提問和討論概念。
+	        </p>
+	      </div>
+
+	      <!-- Feature -->
+	      <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
+	        <div class="flex justify-center mb-4">
+	          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-sky-50">
+	            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap-icon lucide-graduation-cap w-7 h-7 text-sky-aqua"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6"></path><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></svg>
+	          </div>
+	        </div>
+	        <h3 class="text-lg font-semibold mb-2">數碼證書</h3>
+	        <p class="text-sm text-gray-600">
+	          獲得可分享的數碼證書，附帶二維碼可即時驗證。
+	        </p>
+	      </div>
+
+	      <!-- Feature -->
+	      <div class="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
+	        <div class="flex justify-center mb-4">
+	          <div class="w-14 h-14 flex items-center justify-center rounded-full bg-sky-50">
+	            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-handshake-icon lucide-handshake w-7 h-7 text-sky-aqua"><path d="m11 17 2 2a1 1 0 1 0 3-3"></path><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"></path><path d="m21 3 1 11h-2"></path><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"></path><path d="M3 4h8"></path></svg>
+	          </div>
+	        </div>
+	        <h3 class="text-lg font-semibold mb-2">社群內容</h3>
+	        <p class="text-sm text-gray-600">
+	          由專家與學習者共同創作和塑造的課程，保持內容的相關性和多樣性。
+	        </p>
+	      </div>
+
+	    </div>
+
+	  </div>
+	</div>
+	
+  <!-- FIRST COURSE -->
+  <div id="first-course" class="bg-white flex items-center justify-center px-4 py-20 border border-t-0 border-gray-300">
+    <div class="max-w-5xl w-full">
+
+      <div class="text-center">
+        <p class="text-sm uppercase tracking-[0.25em] text-tomato font-semibold">
+          現已推出
+        </p>
+        <h2 class="mt-3 text-4xl font-extrabold text-charcoal-brown sm:text-5xl">
+          從我們的首個學習體驗開始
+        </h2>
+        <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+          一個實用課程，旨在幫助您在學習現代數碼技能的同時，建立真實的作品。
+        </p>
+      </div>
+
+      <div class="mt-14 bg-white rounded-2xl border border-gray-200 shadow-md overflow-hidden">
+        <div class="grid md:grid-cols-2">
+
+          <!-- LEFT -->
+          <div class="p-8 md:p-10">
+            <div class="inline-block px-3 py-1 rounded-full bg-parchment text-sm text-tomato font-medium">
+              精選課程
+            </div>
+
+            <h3 class="mt-4 text-3xl font-bold text-charcoal-brown leading-snug">
+              使用AI建立並推出您的第一個網站
+            </h3>
+
+            <p class="mt-4 text-gray-700 text-base leading-relaxed">
+              學習如何建立簡單網站，有效使用AI工具，並通過GitHub Pages免費發布上線。
+            </p>
+
+            <div class="mt-6 space-y-3 text-sm text-gray-700">
+              <div class="flex items-center"><span class="mr-3 text-tomato">&bull;</span>無需編程經驗</div>
+              <div class="flex items-center"><span class="mr-3 text-tomato">&bull;</span>學習實用的提示工程技巧</div>
+              <div class="flex items-center"><span class="mr-3 text-tomato">&bull;</span>免費發布您的網站</div>
+            </div>
+
+              <div class="mt-8">
+                <a class="inline-flex items-center rounded-lg px-6 py-3 bg-tomato hover:bg-chinese-red text-white shadow-md text-base transition duration-300 ease-in-out transform hover:scale-105" href="/registration/new">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plane-takeoff-icon lucide-plane-takeoff w-5 h-5 mr-2 text-white"><path d="M2 22h20"></path><path d="M6.36 17.4 4 17l-2-4 1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12 5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.41 2.41 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z"></path></svg>
+                  開始此課程
+</a>              </div>
+          </div>
+
+          <!-- RIGHT -->
+          <div class="bg-off-white p-8 md:p-10 border-t md:border-t-0 md:border-l border-gray-200">
+            <div class="flex justify-between text-sm text-gray-500">
+              <span>12個單元</span>
+              <span>自定進度</span>
+              <span>適合初學者</span>
+            </div>
+
+            <div class="mt-8">
+              <div class="w-full bg-gray-200 rounded-full h-2">
+                <div class="bg-tomato h-2 rounded-full w-1/3"></div>
+              </div>
+              <p class="mt-2 text-xs text-gray-500">
+                課程全程包含進度追蹤
+              </p>
+            </div>
+
+            <div class="mt-8 space-y-3 text-sm text-gray-700">
+              <div>&#x2713; AI引導學習支援</div>
+              <div>&#x2713; 實踐練習</div>
+              <div>&#x2713; 完成證書</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+	
+	<!-- MACAO -->
+	<div class="rounded-b-xl bg-macau-green flex items-center justify-center px-4 py-12 border border-t-0 border-gray-300">
+	  <div class="text-white max-w-3xl w-full">
+	    <!-- Centered main title -->
+	    <div class="text-4xl font-extrabold text-center sm:text-5xl">
+	      澳門製造。
+	    </div>
+
+	    <!-- Flex container for image and text (stack on mobile, row on desktop) -->
+	    <div class="flex flex-col md:flex-row gap-8 mt-8">
+	      <!-- Image column: centered within its column, full width on mobile, 1/3 on desktop -->
+	      <div class="flex justify-center md:w-1/3 -mt-8 -mb-8">
+	        <?xml version='1.0' encoding='UTF-8'?><svg width='120.98' height='200' version='1.1' viewBox='0 0 445.12 520.67' xmlns='http://www.w3.org/2000/svg' xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:xlink='http://www.w3.org/1999/xlink'><polygon transform='matrix(2 0 0 2 -437.44 -165.92)' points='315.79 126.69 353 99.666 307 99.666 344.21 126.69 330 82.958' fill='#FFDE23'/><g id='a' transform='matrix(2 0 0 2 -437.44 -165.92)'><path d='m330 303.99h-93.937c-1.184-1.2-2.35-2.423-3.488-3.667h97.425c0.751 0.269 1.267 0.958 1.306 1.736 0.042 0.844-0.488 1.635-1.306 1.931zm0-28.725c0.545-1.114 1.607-3.694 1.125-6.921-0.218-1.463-0.692-2.644-1.125-3.492-5.271 4.988-15.175 12.981-29.785 17.401-6.821 2.064-14.055 3.173-21.548 3.173h-57.872c1.706 2.507 3.494 4.954 5.364 7.333h55.945c18.242 1e-3 34.954-6.58 47.896-17.494zm-100.46-22.637c-2.785 1.072-5.772 1.741-8.887 1.926 13.629 15.415 33.545 25.144 55.723 25.144 21.066 0 40.091-8.775 53.625-22.867 2.297-15.839 3.968-33.969 4.167-53.998 0.232-23.321-1.581-44.2-4.167-62.032-6.045 5.419-17.371 17.128-22.71 35.079-1.998 6.72-3.072 13.837-3.072 21.203 0 15.291 4.623 29.506 12.547 41.329-9.731-12.57-15.526-28.338-15.526-45.454 0-11.369 2.558-22.144 7.126-31.783-3.154-3.334-5.551-7.392-6.904-11.902-6.121 10.804-9.618 23.284-9.618 36.581 0 16.539 5.409 31.819 14.552 44.172-15.923-16.693-38.377-27.099-63.25-27.099-1.336 0-2.667 0.034-3.989 0.093 2.503 2.333 4.604 5.089 6.188 8.157 24.742 0.038 47.078 10.377 62.964 26.949-15.171-12.672-34.698-20.303-55.995-20.303-11.902 0-23.25 2.382-33.594 6.696 10.629 28.085 37.78 48.075 69.574 48.075 2.059 0 4.1-0.093 6.116-0.258-4.29 0.771-8.709 1.174-13.22 1.174-20.061 0-38.269-7.956-51.65-20.882zm100.46 81.382h-48.684c15.067 5.988 31.492 9.281 48.684 9.281 0.414-0.788 1.125-2.395 1.146-4.542 0.022-2.257-0.729-3.945-1.146-4.739zm0-22.458h-85.83c2.322 1.99 4.711 3.902 7.169 5.729h78.661c0.197-0.201 1.167-1.236 1.167-2.865s-0.97-2.663-1.167-2.864zm0 11.458h-70.304c4.257 2.686 8.675 5.139 13.242 7.333h57.062c0.33-0.523 1.112-1.917 1.063-3.844-0.045-1.719-0.728-2.959-1.063-3.489z' fill='#FFFFFF'/><polygon points='224.2 179.51 252.02 164.08 220.44 160.2 243.71 181.9 237.64 150.67' fill='#FFDE23'/><polygon points='269.97 142.7 280.33 112.61 254.26 130.86 286.08 131.41 260.66 112.27' fill='#FFDE23'/></g><use transform='matrix(-1 0 0 1 445.12 2.8984e-6)' width='100%' height='100%' xlink:href='#a'/></svg>
+	      </div>
+
+	      <!-- Text column: full width on mobile, 2/3 on desktop -->
+	      <div class="text-base md:w-2/3">
+	        Spark誕生於澳門，由這片社區獨有的才華與智慧構建而成。我們的目標是通過推動本地進步來回饋社會，在這裡創造一個本地人才激發新人才的持續循環。
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+</div></main>
+			
+  </body>
+</html>
